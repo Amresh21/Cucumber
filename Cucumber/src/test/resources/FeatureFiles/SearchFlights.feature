@@ -1,9 +1,10 @@
-@Book_Ticket
+ @clearTripExecise
 Feature: Acceptance testing.
   In order to book the tickets verify that cleartrip page is loading and able to book the tickets
   
 
-  @clearTripExecise
+ 
+  @Book_Ticket
   Scenario Outline: Validate ticketBooking
     Given I am on the Home Page "https://www.cleartrip.com" of cleartrip Website
     Then I click on Flights Button
